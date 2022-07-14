@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "ヒラギノ明朝", serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 110px;
+    padding: 0 3% 0 2%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header ul {
+    margin: 0;
+    display: flex;
+}
+header li {
+    font-size: 18px;
+    padding: 5px 0 ;
+    margin: 0 0 0 15px;
+}
+header nav {
+    margin: 0 0 0 auto;
+}
+.header-title {
+    font-size: 20px;
+    color: black;
+}
+.header-subtitle {
+    font-size: 13px;
+}
+.header-contents {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contents {
+    background-color: aliceblue;
+    margin-top: 110px;
+}
+
+.contents-text {
+    text-align: center;
+}
+.introduction {
+    font-size: 30px;
+    text-align: center;
+    color: cornflowerblue;
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub-title {
+    font-size: 16px;
+}
+.link {
+    font-size: 25px;
+    color: cornflowerblue;
+}
+.specific-place {
+    font-size: 28px;
+}
+.specific-participant {
+    font-size: 22px;
+}
+.day {
+    font-size: 32px;
+}
+.time {
+    font-size: 27px;
+}
+.place {
+    font-size: 20px;
+}
+
+
+footer {
+    padding-top: 10px;
+    background-color: skyblue;
+}
+.footer-contents {
+    text-align: center;
+}
