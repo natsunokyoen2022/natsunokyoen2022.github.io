@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+body {
+    font-family: "ヒラギノ明朝", serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 110px;
+    padding: 0 3% 0 2%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header ul {
+    margin: 0;
+    display: flex;
+}
+header li {
+    font-size: 18px;
+    padding: 5px 0 ;
+    margin: 0 0 0 15px;
+}
+header nav {
+    margin: 0 0 0 auto;
+}
+.header-title {
+    font-size: 20px;
+    color: black;
+}
+.header-subtitle {
+    font-size: 13px;
+}
+.header-contents {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contents {
+    margin-top: 110px;
+    background-color: aliceblue;
+}
+.contents h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: cornflowerblue;
+}
+p {
+    font-size: 20px;
+}
+.contents img {
+    border-radius: 5px;
+}
+.club-name {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkorange;
+}
+.gaigodai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.gaigodai p {
+    padding-right: 40px;
+    width: 45%;
+}
+.ikashikadai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.ikashikadai p {
+    padding-left: 40px;
+    width: 45%;
+}
+.toudai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.toudai p {
+    padding-right: 40px;
+    width: 45%;
+}
+.dentsudai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.dentsudai p {
+    padding-left: 40px;
+    width: 45%;
+}
+.hitotsubashidai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.hitotsubashidai p {
+    padding-right: 30px;
+    width: 45%;
+}
+.toukoudai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.toukoudai p {
+    padding-left: 40px;
+    width: 45%;
+}
+.toritsudai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.toritsudai p {
+    padding-right: 40px;
+    width: 45%;
+}
+footer {
+    padding-top: 18px;
+    background-color: skyblue;
+    padding-bottom: 8px;
+}
+.footer-contents {
+    text-align: center;
+}
+.footer-contents-2 {
+    text-align: center;
+}
